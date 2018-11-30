@@ -65,7 +65,9 @@ class Graph:
             nextEdge = availableEdges[0]
             self.edges.append(nextEdge)
             self.checkedIndexs.append(nextEdge.index)
-
+            print('select {}'.format(str(nextEdge)))
+            print('visited {}'.format(', '.join([VERTEX_NAME[v] for v in self.checkedIndexs])))
+            print('='*40)
         return self.edges[-1]
 
 
