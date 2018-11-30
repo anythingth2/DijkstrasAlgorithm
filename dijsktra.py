@@ -5,11 +5,9 @@ df = pd.read_csv(inputPath)
 
 vertexMap = df.values
 
-
 startNode = 0
 endNode = 11
 VERTEX_NAME = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'z']
-
 
 class Vertex:
 

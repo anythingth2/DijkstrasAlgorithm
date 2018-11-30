@@ -1,0 +1,8 @@
+read weight map csv to 2d array
+replace all non-connection weight to 100
+edges := []
+loop until edges[last Edges Index = destination index:
+    find all shortest edge from each edge in edges
+    sort shortest edge from each edge in edges by sum of weight of vertex was traveled
+    add edge which lowest sum of weight to edges
+shortestEdge := edges[last Edges Index]
